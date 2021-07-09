@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.MonthlyInfoPage1"
+             Title="Covid-19 Information">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Pregnancy During Covid-19"> </Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="All available evidence suggests that pregnant women are at no greater risk of becoming seriously unwell than other healthy adults if they develop coronavirus. The large majority of pregnant women experience only mild or moderate cold/flu-like symptoms.&#x0a;&#x0a;Cough, fever, shortness of breath, headache and loss or change to your sense of smell or taste are other relevant symptoms. If you think you may have symptoms of coronavirus you should use the NHS 111 online service for information, or NHS 24 if in Scotland. If you develop more severe symptoms or your recovery is delayed, this may be a sign that you are developing a more significant chest infection that requires specialised care.&#x0a;&#x0a;If you feel your symptoms are worsening or if you are not getting better, you should contact your maternity care team, your GP, or use the NHS 111 online service / NHS 24 for further information and advice. In an emergency, call 999.">
+                </Label>
+
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="What effect will coronavirus have on my baby if I am diagnosed with the infection?"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="As this is a very new virus, we are just beginning to learn about it. There is no evidence to suggest an increased risk of miscarriage.&#x0a;&#x0a;Emerging evidence suggests that transmission from a woman to her baby during pregnancy or birth (vertical transmission) is probable. It is important to emphasise that in all reported cases of newborn babies developing coronavirus very soon after birth, the babies were well.&#x0a;&#x0a;Given current evidence, it is considered unlikely that if you have the virus it would cause problems with your baby's development, and none have been observed currently."></Label>
+
+
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="What can I do to reduce my risk of catching coronavirus?"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="The most important thing to do is to follow government guidance. For pregnant women and the rest of their households, this includes:&#x0a;&#x0a;Wash your hands regularly&#x0a;&#x0a;Use a tissue when you or anyone in your family coughs or sneezes, discard it and wash your hands&#x0a;&#x0a;Avoid contact with someone who is displaying symptoms of coronavirus (these symptoms include high temperature and/or new and continuous cough)&#x0a;&#x0a;Avoid non-essential use of public transport when possible&#x0a;&#x0a;Work from home, when possible&#x0a;&#x0a;Avoid large and small gatherings in public spaces, noting that pubs, restaurants, leisure centres and similar venues are currently shut as infections spread easily in closed spaces where people gather together&#x0a;&#x0a;Avoid gatherings with friends and family; keep in touch using remote technology such as phone, internet and social media&#x0a;&#x0a;Use telephone or online services to contact your GP or other essential services"></Label>
+
+            
+        
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

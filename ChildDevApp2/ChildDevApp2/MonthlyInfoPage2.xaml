@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.MonthlyInfoPage2"
+             Title="Smoking and Drinking During Pregnancy">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="How does smoking affect my unborn baby?"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="When you smoke, carbon monoxide and other harmful toxins travel from your lungs, into your bloodstream, through your placenta and into your baby's body. When this happens, your baby struggles for oxygen. When your baby can't get enough oxygen, this affects their development.&#x0a;&#x0a;Whether you're pregnant or you've just found out you're expecting, the sooner you quit, the better. There is lots of help available, so you don't have to do this alone. Your local stop smoking service offers free, one-to-one advice, support and encouragement to help you stop smoking. You can also talk to your GP or midwife – they can talk you through the best treatments available.&#x0a;&#x0a;When you give up, the harmful gases (like carbon monoxide) and other chemicals will soon clear from your body.&#x0a;&#x0a;Reasons to stop smoking include:&#x0a;&#x0a;You're doing the best thing for your baby's health&#x0a;&#x0a;The chances of having a miscarriage or still birth are reduced&#x0a;&#x0a;You'll minimise the risk of cot death (SIDS)&#x0a;&#x0a;Your baby is less likely to be born early (premature) or underweight&#x0a;&#x0a;Stopping smoking will help your baby in later life – some people suffer from asthma and other serious illnesses if their mother smoked while pregnant"></Label>
+
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="How can alcohol affect my baby?"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Alcohol passes from your blood into the baby's placenta. Your baby can't process alcohol like you can, and too much can be extremely harmful to their development. If you carry on drinking, especially in the first 3 months of pregnancy, the risk of miscarriage, premature birth and low birth weight are increased.&#x0a;&#x0a;Sometimes drinking during pregnancy can cause a serious condition called foetal alcohol syndrome. When the baby can't process the amount of alcohol being consumed, it can affect their development in the womb, including their brain, spinal cord and other parts of the body. This can result in miscarriage, and if the baby survives, they may be left with lifelong problems such as poor growth, facial abnormalities, learning and behavioural problems.&#x0a;&#x0a;If you feel you need some help cutting down, there is lots of support available&#x0a;&#x0a;You can always speak to your midwife, GP or pharmacist about quiting alcochol.&#x0a;&#x0a;These counselling services also offer confidential help and support:&#x0a;&#x0a;Drinkline is the free national alcohol helpline. Call 0300 123 1110 (weekdays 9am to 8pm, weekends 11am to 4pm).&#x0a;&#x0a;We Are With You (formerly known as Addaction) is a UK-wide treatment agency that helps individuals, families and communities manage the effects of alcohol and drug misuse.&#x0a;&#x0a;Alcoholics Anonymous (AA) is a free self help group. Its 12-step programme involves getting sober with the help of regular support groups."></Label> 
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

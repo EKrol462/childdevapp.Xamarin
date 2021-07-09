@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.MainPage"
+             MasterBehavior="Popover"     
+             Title="Home Page"
+             
+             >
+
+   <MasterDetailPage.Master>
+        <ContentPage Title="MasterPage">
+            <ContentPage.Content>
+                <StackLayout BackgroundColor="#FFB2A8">
+
+                    <Button x:Name="HomePageBtn" FontSize="16" BackgroundColor ="#FFB2A8" TextColor="#FBDCC3" Padding="0" Text="Home Page" Clicked="Handle_Clicked_Home_PageBtn"></Button>
+                    <Button x:Name="Page1Btn" FontSize="16" BackgroundColor ="#FFB2A8" TextColor="White" Padding="0" Text="Birth Date Tracker" Clicked="Handle_Clicked_Page1"></Button>
+                    <Button x:Name="Page2Btn" FontSize="16" BackgroundColor ="#FFB2A8" TextColor="White" Padding="0" Text="Pregnancy Information" Clicked="Handle_Clicked_Page2"></Button>
+                    <Button x:Name="Page3Btn" FontSize="16" BackgroundColor ="#FFB2A8" TextColor="White" Padding="0" Text="Dieting for Pregnant Mothers" Clicked="Handle_Clicked_Page3"></Button>
+                    <Button x:Name="Page4Btn" FontSize="16" BackgroundColor ="#FFB2A8" TextColor="White" Padding="0" Text="Vaccines Info Hub" Clicked="Handle_Clicked_Page4"></Button>
+                    <Button x:Name="Page5Btn" FontSize="16" BackgroundColor ="#FFB2A8" TextColor="White" Padding="0" Text="Pre-existing Health Conditions" Clicked="Handle_Clicked_Page5"></Button>
+                    <Button x:Name="Page6Btn" FontSize="16" BackgroundColor ="#FFB2A8" TextColor="White" Padding="0" Text="Pregnancy Care Centres" Clicked="Handle_Clicked_Page6"></Button>
+                    
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+   </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

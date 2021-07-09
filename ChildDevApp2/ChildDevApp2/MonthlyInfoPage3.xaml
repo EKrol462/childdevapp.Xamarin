@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.MonthlyInfoPage3"
+             Title="Mental Health During Pregnancy">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Looking After Yourself"></Label>
+            <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="It's normal to have some worries during pregnancy, but if you're concerned about how you're feeling, you can always talk to your midwife or doctor. They will point you in the right direction for all the support that you need, without judgment.&#x0a;&#x0a;You can also share any concerns with your partner, friends or family. You may be anxious about your relationship, money, health, or how you'll cope when your baby is born. Whatever you're worried about, don't bottle it up – you are important and there is help available if you need it.&#x0a;&#x0a;For more advice and tips on coping with emotional changes, stress and anxiety during (and after) pregnancy, have a look at:&#x0a;&#x0a;Tommy's: Emotional changes in pregnancy.&#x0a;&#x0a;The NHS website: Mental health problems and pregnancy.&#x0a;&#x0a;There are a number of NHS approved mental health apps that may also help."></Label>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

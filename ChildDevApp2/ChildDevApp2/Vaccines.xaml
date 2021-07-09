@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.Vaccines"
+             BackgroundColor="White"
+             Title="Vaccines Info Hub">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Vaccines Recommended in Pregnancy"></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Margin="10" TextDecorations="Underline" Text="Flu"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="During pregnancy, your immune system (the body's natural defence) is weakened to protect the pregnancy. This can mean you're less able to fight off infections. As the baby grows, you may be unable to breathe as deeply, increasing the risk of infections such as pneumonia.&#x0a;&#x0a;These changes can raise the risk from flu – pregnant women are more likely to get flu complications than women who are not pregnant and are more likely to be admitted to hospital. Having the flu vaccine means you're less likely to get flu."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Margin="10" TextDecorations="Underline" Text="Whooping cough"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Whooping cough is a very serious infection, and young babies are most at risk. Most babies with whooping cough will be admitted to hospital.&#x0a;&#x0a;When you have the whooping cough vaccination in pregnancy, your body produces antibodies to protect against whooping cough. These antibodies pass to your baby giving them some protection until they're able to have their whooping cough vaccination at 8 weeks old."></Label>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Pregnancy and malaria"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Pregnant women are particularly susceptible to malaria. This is a serious condition which, if severe, can be fatal for both a mother and her baby. Malaria mainly affects countries in:&#x0a;&#x0a;Africa&#x0a;&#x0a;South America and Central America&#x0a;&#x0a;Asia&#x0a;&#x0a;The Middle East&#x0a;&#x0a;The antimalarial medicine you take may depend on which country you're travelling to, your stage of pregnancy and whether you have any other pre-existing medical conditions. In some areas certain antimalarial medicines do not work because the malaria parasite has developed resistance to them.&#x0a;&#x0a;Some antimalarial medicines are known to affect the developing baby. For example, doxycycline can cause the baby's milk teeth to be discoloured if a pregnant woman takes it after the first 12 or 13 weeks of pregnancy.&#x0a;&#x0a;Other antimalarial medicines have not been studied sufficiently and more research on their use in pregnancy is needed. But the risk of harm to you and your baby from malaria is likely to be much greater than any potential risk from taking antimalarial medicine.&#x0a;&#x0a;See your GP for advice about taking antimalarial medicine during pregnancy"></Label>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Vaccines not usually advised in pregnancy (live vaccines)"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="If a vaccine uses a live version of the virus, such as the MMR vaccine, you'll usually be advised to wait until after your baby is born before you get vaccinated.&#x0a;&#x0a;This is because there's a potential risk that live vaccines could cause your unborn baby to become infected. But there's no evidence that any live vaccine causes birth defects.&#x0a;&#x0a;Sometimes, a live vaccine may be used during pregnancy if the risk of infection is greater than the risk of the vaccination. Your midwife, GP or pharmacist can give you more advice about vaccinations during pregnancy.&#x0a;&#x0a;Live vaccines include:&#x0a;&#x0a;BCG (vaccination against tuberculosis)&#x0a;&#x0a;MMR (measles, mumps and rubella)&#x0a;&#x0a;Oral polio (which forms part of the 5-in-1 vaccine given to infants)&#x0a;&#x0a;Oral typhoid&#x0a;&#x0a;Yellow fever"></Label>
+            
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.HomePage"
+             Title="Home Page"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="20"
+                     Orientation="Vertical">
+            <Label 
+                   Margin="15"
+                   Padding="10" 
+                   BackgroundColor="#FE9C8F"
+                TextColor="White">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Welcome to &#x0a;"
+                              FontSize="Large" />
+                        <Span Text="This application is the number 1 information companion for expecting mothers, here you can find various information that will help you along your pregnancy journey, Use the navigation bar to your left to see the different sections"
+                              FontSize="16" />
+                    </FormattedString>
+                </Label.FormattedText>     
+            </Label>
+
+            <Label 
+                   Margin="15"
+                   Padding="10" 
+                   BackgroundColor="#F8CAA8"
+                   TextColor="White">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Covid- 19 Information &#x0a;"
+                              FontSize="Large" />
+                        <Span Text="The current situation with Covid-19 makes pregancy a very difficult time for mothers. See the pregnancy information page to find advice from the NHS about pregnancy during the Covid-19 outbreak"
+                              FontSize="16"/>
+                    </FormattedString>
+                </Label.FormattedText>
+       
+            </Label>
+
+            <Label 
+                   Margin="15"
+                   Padding="10" 
+                   BackgroundColor="#FFB2A8"
+                   TextColor="White">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Pre-existing Health Conditions &#x0a;"
+                              FontSize="Large" />
+                            <Span Text="If you have any pre-existing health conditions that may impact your pregnancy, this application can guide you on neccesary steps to take."
+                              FontSize="16" />
+                        </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label 
+                   Margin="15"
+                   Padding="10" 
+                   BackgroundColor="#F8CAA8"
+                   TextColor="White">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Birth Date Countdown &#x0a;"
+                              FontSize="Large" />
+                        <Span Text="Are you eagerly waiting for the arrival of your little one? With this application you can countdown to your birthdate with regular notifications notyfying you of your baby's growth"
+                              FontSize="16" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+                <Label 
+                   Margin="15"
+                   Padding="10" 
+                   BackgroundColor="#FE9C8F"
+                   TextColor="White">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Vaccine Information &#x0a;"
+                              FontSize="Large" />
+                            <Span Text="Are you up to date with your immunisations? Here you can see what vaccinations you can and must take during pregnancy"
+                              FontSize="16" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

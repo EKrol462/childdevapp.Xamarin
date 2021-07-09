@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.Diet"
+             Title="Dieting For Pregnant Mothers"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Healthy Eating"></Label>
+            <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Eating a healthy, nutritious diet is especially important if you're pregnant, or planning a pregnancy. Your baby relies on you to provide the right balance of nutrients to help them grow and develop properly (even after they're born)."></Label>
+
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="What food should I eat in pregnancy?"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="You don't need to spend lots of money, or go on a special diet – you just need a balance of the right types of food. These include:"></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Fruit and vegetables"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Aim to eat at least 5 portions of fruit and veg a day. Fresh, frozen, canned, dried or juiced can be part of your daily allowance – try to avoid anything with added salt or sugar."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Starchy foods (carbohydrates)"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="These types of food are an important source of energy, certain vitamins and fibre. They include bread, potatoes, breakfast cereals, rice, pasta and noodles. Opt for wholemeal instead of refined, starchy (white) versions, when possible."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Protein"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Foods in this group include meat (avoid liver), fish, poultry, eggs, beans, pulses and nuts. Protein provides the building blocks for your baby to grow.&#x0a;&#x0a;Aim to have 2 portions of fish each week. Make one of them an oily fish like salmon, sardines or mackerel. There are some types of fish you should avoid (shark, swordfish and marlin) if you're pregnant, or trying to conceive.&#x0a;&#x0a;Eggs produced under the British Lion Code of Practice (stamped with the red lion) are considered very low risk for salmonella, and safe for pregnant women to eat raw or partially cooked."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Dairy products"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Dairy includes milk, cheese and yoghurt. These products contain calcium and other essential nutrients. When possible, choose low-fat varieties, such as semi-skimmed, 1% fat or skimmed milk, low-fat yoghurt and reduced-fat hard cheese. If you prefer dairy alternatives, such as soya drinks and yoghurts, opt for unsweetened, calcium-fortified versions."></Label>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="What should I avoid?"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="There are certain foods that you shouldn't eat while you're pregnant as they can put your baby's health at risk. These include some types of cheese and raw or undercooked meat."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Cutting down on salt"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="It's a good idea to cut down on salt during pregnancy. Eating too much salt can raise your blood pressure (although high blood pressure in pregnancy can also be caused by other things). High blood pressure can increase your risk of developing heart disease or stroke."></Label>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Diet Plans"></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Margin="10" TextDecorations="Underline" Text="Click here to visit babycentre.co.uk for full trimester by trimester diet plans">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="DietPlansTapped" />
+                    </Label.GestureRecognizers>   
+                </Label>
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

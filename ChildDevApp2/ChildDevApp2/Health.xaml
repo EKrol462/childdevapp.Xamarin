@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChildDevApp2.Health"
+             BackgroundColor="White"
+             Title="Pre-existing Health Conditions">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Pre-Existing Health Conditions and Their Affects in Pregnancy"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Having a long-term or chronic condition doesn't mean that you can't have a reasonably trouble-free pregnancy and a healthy baby, but you may require extra care to minimise any risk to you and your baby.&#x0a;&#x0a;Ideally, you should discuss your condition and how it may affect your pregnancy with a health professional before you start trying for a baby, but if your pregnancy is unplanned you will need to see your GP or specialist as soon as you find out that you are pregnant. This will allow your healthcare professionals to decide how best to manage your pregnancy&#x0a;&#x0a;It's important to continue taking any medication prescribed for your condition unless your doctor specifically tells you to stop."></Label>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Diabetes In Pregnancy"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Many women with diabetes have healthy pregnancies and healthy babies, but diabetes can cause complications during pregnancy and birth.&#x0a;&#x0a;If your pregnancy is unplanned you should see your GP as soon as you discover you are pregnant so that you can be assessed and your medication can be reviewed.&#x0a;&#x0a;If you already have Type 1 or Type 2 Diabetes, you will be advised to get your condition well controlled before you become pregnant.&#x0a;&#x0a;You will be advised to take a higher than usual dose of folic acid – this is the vitamin that helps to prevent birth defects, such as spina bifida.&#x0a;&#x0a;High blood sugar levels before and during pregnancy can:&#x0a;&#x0a;make any long-term diabetes problems such as eye problems, heart and kidney disease worse.&#x0a;&#x0a;increase the chance of your having a miscarriage or your baby being born too early.&#x0a;&#x0a;increase the risk of your baby having birth defects&#x0a;&#x0a;create problems for your baby such as gaining too much weight and having breathing difficulties."></Label>
+                <Label FontSize="24" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Asthma In Pregnancy"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Various studies show that if asthma does become worse during pregnancy it is likely to happen during the second and third trimesters, reaching its peak at between 24 and 36 weeks.&#x0a;&#x0a;After this, symptoms are reduced with around 90% of sufferers reporting having no symptoms during labour and birth."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Pre-conception care"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="It is important to get your personal management plan drawn up for you by your GP or asthma nurse before you become pregnant."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Managing your asthma"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Your asthma needs to be well controlled to minimise any risks to you or your baby. Your GP or asthma nurse will be able to tell you how best way to manage your asthma. It's also important to avoid asthma triggers:&#x0a;&#x0a;Don't smoke and keep away from smokey atmospheres.&#x0a;&#x0a;Keep away from known asthma triggers such as dust and pet fur.&#x0a;&#x0a;Avoid hay fever triggers."></Label>
+                <Label FontSize="20" TextColor="#FE9C8F" HorizontalOptions="Center" Text="Your treatment during pregnancy"></Label>
+                <Label FontSize="16" TextColor="Black" HorizontalOptions="Center" Margin="10" Text="Your prescribed asthma treatments are safe to use during pregnancy. In fact, stopping them is likely to cause more risk to your health and may risk your baby having a low birth weight.&#x0a;&#x0a;If you have an asthma attack at any stage of pregnancy that doesn't respond quickly to your normal treatment ring 999 or go directly to the hospital for assessment.&#x0a;&#x0a;Make sure that any health professional treating you during pregnancy knows that you have asthma&#x0a;&#x0a;Acid reflux, which often occurs during pregnancy, can make asthma worse so you may want to talk to your GP about suitable treatment. It is important to have the seasonal flu injection if you have asthma."></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
